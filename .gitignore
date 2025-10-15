@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Frontend specific
+frontend/node_modules
+frontend/build
+frontend/.env
+
+# Keep these frontend files
+!frontend/src/
+!frontend/public/
+!frontend/package.json
+!frontend/README.md
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+*.db
+*.sqlite3
+*.sqlite
+
+# Node/React
+node_modules/
+build/
+coverage/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.vs/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# Environment Variables
+.env*
+!.env.example
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Misc
+*.log
+.DS_Store*
+*.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.launch
+*.pyc
+*.pyo
+*.pyd
+.Python
+.python-version
+*.bak
+*.swp
+*.swo
+*~
+._*
+
+# Production
+build/
+dist/
+/frontend/build
+/frontend/dist
